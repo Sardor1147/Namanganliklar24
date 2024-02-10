@@ -1,0 +1,103 @@
+.hero {
+  width: 100%;
+  margin-top: 300px;
+  // background-color: #fff;
+  margin-top: 10px;
+  &__part {
+    transform: translateY(20px);
+    width: 1400px;
+    padding: 30px;
+    background-color: #f6f6f9;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  &__item {
+    font-weight: 800;
+  }
+  &__list {
+    width: 1400px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+  }
+  &__info {
+    width: 475px;
+    margin-bottom: 30px;
+  }
+  &__info--img {
+    width: 450px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  &__head {
+    width: 400px;
+    font-family: Rubik;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  &__time {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__modal {
+    width: 1400px;
+    display: flex;
+    background-color: #EFBA542E;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+  &__modal--img {
+    width: 35px;
+    height: auto;;
+  }
+  &__modal--txt {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+  }
+  &__modal--btn {
+    margin-left: auto;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    background: linear-gradient(110deg, rgb(255, 145, 0) 30%, rgb(255, 174, 0) 60%);
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    
+  }
+}

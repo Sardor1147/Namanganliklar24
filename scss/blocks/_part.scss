@@ -1,0 +1,52 @@
+.part {
+    width: 1400px;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f6f6f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-top: 40px;
+    &__img {
+     height: 177px;
+     margin-top: auto;
+    }
+    &__content {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    &__head {
+        width: 530px;
+        font-family: Rubik;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #295093;
+
+    }
+    &__txt {
+        width: 590px;
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    &__btn {
+        height: 48px;
+        margin-top: auto;
+        margin-bottom: auto;
+        border: 0px;
+    }
+    &__btn:hover {
+        opacity: 0.9;
+    }
+    &__btn:active {
+        opacity: 0.8;
+    }
+}

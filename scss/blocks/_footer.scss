@@ -1,0 +1,79 @@
+.footer {
+    background-color: #295093;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 30px;
+    &__part1 {
+        width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo--link {
+        color: #fff;
+        padding: 20px;
+        background-color: #133C82;
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    &__part1--txt {
+        margin-left: 350px;
+        margin-top: 10px;
+        font-family: Rubik;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    &__button {
+        padding: 12px;
+        display: flex;
+        border: 1px solid #333;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #1e96c8;
+        width: 150px;
+    }
+    
+    &__part2 {
+        width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    &__list {
+        margin-top: 20px;
+        width: 380px;
+    }
+    &__list:nth-child(2) {
+        margin-left: 230px;
+    }
+    &__content--item {   
+        font-family: Rubik;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    &__link {
+        color: #fff;
+        font-family: Rubik;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+}

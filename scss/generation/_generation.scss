@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  // padding: 0 20px;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+a:hover {
+  color: rgb(68, 68, 226);
+}
+button {
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
